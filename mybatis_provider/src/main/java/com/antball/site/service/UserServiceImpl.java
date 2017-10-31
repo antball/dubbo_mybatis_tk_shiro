@@ -23,7 +23,7 @@ public class UserServiceImpl implements IUserService {
     @Autowired
     private TUserMapper userMapper;
 
-    @Overrided
+    @Override
     public TUser getUserById(int id){
 
         PageHelper.startPage(1, 3);
